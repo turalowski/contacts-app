@@ -1,8 +1,10 @@
 
 ## Installation
 
+Node version 12.18.0 is required.
+
 ```
-$ npm run dependencies
+$ npm run dependencies 
 ```
 
 ## Running the app
