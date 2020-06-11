@@ -1,0 +1,19 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run start",
+    "backend": "cd backend && npm run start",
+    "dep1": "cd frontend && npm i",
+    "dep2": "cd backend && npm i",
+    "dependencies": "concurrently \"npm run dep1\" \"npm run dep2\"",
+    "dev" : "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
